@@ -20,7 +20,7 @@ def cartelera():
 
 @app.route('/cartelera_pelicula')
 def cartelera_pelicula():
-    return render_template('cartelera.pelicula.html')
+    return render_template('cartelera_pelicula.html')
 
 @app.route('/pelicula')
 def pelicula():
@@ -34,8 +34,6 @@ def perfil():
 def dashboard():
     return render_template('dashboard.html') 
                        
-
- 
 
 if __name__ == '__main__':
     app.run(debug = True, port = 8000)
