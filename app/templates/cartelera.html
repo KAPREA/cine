@@ -6,7 +6,7 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
 		<a class="navbar-brand">CINEMARK</a>
 		<form class="form-inline ">
-			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Buscar Pelicula">
+			<input class="form-control mr-sm-2" type="search" placeholder="Buscar Pelicula" aria-label="Buscar Pelicula">
 			<a href="/register">
 				<button type="button" class="btn btn-outline-success form-control my-2 my-sm-0" >Registrarse</button></a>
 			<a href="/login">
@@ -66,7 +66,8 @@
 	<div class="container mt-5">
 		<div class="row d-flex justify-content-center g-1">
 			<div class="col-md-4">
-				<div class="product text-center"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwCpbEhVF0LMZ2o5bQKAnoDqlgLGX5ZuWnYQ&usqp=CAU" 
+				<div class="product text-center"> 
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwCpbEhVF0LMZ2o5bQKAnoDqlgLGX5ZuWnYQ&usqp=CAU" 
 					width="250">
 					<div class="about text-left px-3">
 						<h3>EL HOYO</h3>
@@ -119,7 +120,7 @@
 h1{
 	text-align: center;
 	padding: 19px;
-	color: #dfc013;
+	color: #f00f0f;
 }
 
 .product {
@@ -127,7 +128,9 @@ h1{
     background-color: rgb(0, 0, 0);
     position: relative
 }
-
+.product:hover{
+	translate: ();
+}
 .about h4 {
     margin-bottom: -3px
 }
@@ -139,7 +142,9 @@ h1{
 .about span {
     font-size: 13px
 }
-
+ img:hover {
+  transform: scale(1.1);
+}
 .dot {
     height: 40px;
     width: 40px;
@@ -181,5 +186,9 @@ h1{
 .about {
 	color: seashell;
 
+}
+.about h3{
+	margin-top: 10px;
+	text-align: center;
 }
 </style>
