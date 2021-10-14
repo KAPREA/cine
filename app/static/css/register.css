@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
     font-weight: 300;
-    background-color: var(--color-grey);
+    background-color: #f3f3f3;
     color: var(--color-light);
     letter-spacing: .05rem;
 }
@@ -51,7 +51,7 @@ body {
 }
 
 .register-bg {
-    background-image: url('img.jpg');
+    background-image: url("https://static.eldiario.es/clip/86011034-d175-42e9-b127-e1553dc2325f_16-9-aspect-ratio_default_0.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -60,6 +60,7 @@ body {
 .testiomonial {
     bottom: 10px
 }
+
 
 @media (max-width: 575.98px) {
     .p-6 {
